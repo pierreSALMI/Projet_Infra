@@ -22,6 +22,7 @@ wget http://git.io/vpn
 ```
 
 Une fois le script télécharger lancez-le et suivez les instructions données.
+Pour ajouter ou révoquer un utilisateur tout ce fait en lancent le script avec les options. 
 
 ## Mise en place d'un client
 Pour que le client fonctionne il faut installer `OpenVPN` et récupérer le fichier `.opvn` généré par le serveur.
