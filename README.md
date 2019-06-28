@@ -1,6 +1,15 @@
 # VPN 
+Pour ce tutoriel nous utiliserons des machines sous Centos mais la mise en place fonctionne aussi sous debian ou ubuntu.
+Il faudra aussi ouvrir les ports firewall selon le port et protocole utilisé (de base port:1194 protocole:udp)
+```
+firewall-cmd --add-port:[port]/[protocol] --permanent
+```
+Redemarrer le firewall
+```
+firewall-cmd --reload
+```
+
 ## Mise en place du Serveur
-Nous utiliserons ici un os Linux (debian/ubuntu/centos) pour notre serveur.
 ### Téléchargement
 Pour que le serveur fonctionne il va falloir installer différentes librairies et un script
 * librairies
@@ -13,14 +22,6 @@ wget http://git.io/vpn
 ```
 
 Une fois le script télécharger lancez-le et suivez les instructions données.
-Il faudra aussi ouvrir le Firewall selon le port et protocole utilisé (de base port:1194 protocole:udp)
-```
-firewall-cmd --add-port:[port]/[protocol] --permanent
-```
-Redemarrer le firewall
-```
-firewall-cmd --reload
-```
 
 
 ## Mise en place d'un client
