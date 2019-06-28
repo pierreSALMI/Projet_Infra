@@ -23,7 +23,6 @@ wget http://git.io/vpn
 
 Une fois le script télécharger lancez-le et suivez les instructions données.
 
-
 ## Mise en place d'un client
 Pour que le client fonctionne il faut installer `OpenVPN` et récupérer le fichier `.opvn` généré par le serveur.
 Une fois fini, lancé le fichier `.opvn` puis faite un `ip a` pour vérifier que la connexion a bien fonctionné.
